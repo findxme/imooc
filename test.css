@@ -1,0 +1,219 @@
+.rl-modal {
+    position: fixed;
+    background: #fff;
+    z-index: 100000;
+    width: 360px;
+    padding-bottom: 30px;
+    left: 50%;
+    top: 50%;
+    margin: -218px 0 0 -180px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.rl-modal-header {
+    position: relative;
+    padding: 0 20px;
+}
+.rl-modal-body {
+    padding: 0 30px;
+}
+.rl-model-footer {
+    padding: 20px 30px 4px;
+}
+.rl-modal-header h1 {
+    font-size: 16px;
+    line-height: 49px;
+    height: 49px;
+    color: #787d82;
+    border-bottom: 1px solid #d0d6d9;
+}
+.rl-modal-header .active-title, .rl-modal-header span:hover {
+    border-bottom: 1px solid #f01400;
+    color: #f01400;
+}
+.rl-modal-header h1 span {
+    float: left;
+    width: 80px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    cursor: pointer;
+}
+.rl-close {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: url(nlogin.png) no-repeat 0 0;
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}
+.l {
+    float: left;
+}
+.rlf-tip-globle {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.pr {
+    position: relative;
+}
+.ipt::-moz-placeholder {
+    color: #c8cdd2;
+    opacity: 1;
+}
+.r {
+    float: right;
+}
+.clearfix::after {content: '\0020';display: block;height: 0;clear: both;visibility: hidden;}
+.rlf-tip-wrap {
+    font-size: 12px;
+    height: 20px;
+    clear: both;
+}
+.verify-img-wrap {
+    float: left;
+    height: 40px;
+    width: 70px;
+}
+
+.rl-modal .icon-refresh {
+    color: #b5b9bc;
+    font-size: 24px;
+    display: inline-block;
+    margin: 8px 0 0 10px;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s ease-in;
+}
+.rlf-appendix {
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+.rlf-appendix .rlf-autoin, .rlf-appendix .rlf-forget {
+    color: #787d82;
+}
+.rl-modal .btn-red {
+    background-color: #f01400;
+    border-color: #f01400;
+}
+.rl-model-footer {
+    padding: 20px 30px 4px;
+}
+.pop-login-sns {
+    text-align: center;
+    font-size: 14px;
+}
+.pop-login-sns span {
+    color: #b5b9bc;
+    display: inline-block;
+    margin-top: 4px;
+}
+.pop-login-sns a {
+    font-size: 14px;
+    margin-left: 21px;
+    height: 20px;
+    line-height: 20px;
+    color: #c8cdd2;
+    transition: color .2s;
+}
+.erweima {
+    background: url(erweima.png) no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    opacity: 0.75;
+}
+.btn-full {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "PingFang SC", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+}
+input::-moz-focus-inner {
+    border: 0px;
+}
+a, input, button {
+    outline: none;
+}
+.btn-red {
+    color: #ffffff;
+    background-color: #ec1500;
+    border-color: #ec1500;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -weibkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    line-height: 38px;
+    font-size: 14px;
+}
+.rl-modal .ipt {
+    width: 279px;
+    padding: 9px 9px 9px 10px;
+    background-color: #fff;
+    border-color: #d0d6d9;
+    box-shadow: 2px 0px 5px 0px #fff;
+}
+.ipt-pwd {
+    background-position: 0 -48px;
+}
+.rl-modal .ipt:focus {
+    border-color: #98a1a6;
+}
+.ipt-pwd {
+    background-position: 0 -48px;
+}
+.ipt {
+    color: #14191e;
+    background-color: #ffffff;
+    border: 1px solid #98a1a6;
+    height: 20px;
+    padding: 9px 9px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 0;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-color: #98a1a6;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+input, button, textarea, select {
+
+    border: 0;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+.rl-modal .ipt-verify {
+    margin-right: 10px;
+    width: 120px;
+    padding-left: 9px;
+    background-image: none;
+}

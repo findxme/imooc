@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>慕课网(IMOOC)-国内最大的IT技能学习平台</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="renderer" content="webkit">
+        <meta property="qc:admins" content="77103107776157736375">
+        <meta property="wb:webmaster" content="c4f857219bfae3cb">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+        <meta http-equiv="Cache-Control" content="no-transform ">
+        <meta name="Keywords" content="慕课网，慕课官网，MOOC，移动开发，IT技能培训，免费编程视频，php开发教程，web前端开发，在线编程学习，html5视频教程，css教程，ios开发培训，安卓开发教程">
+        <meta name="Description" content="慕课网（IMOOC）是国内最大的IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程。">
+        <meta name="360-site-verification" content="efec9ca9c0c2bf49b8f54f8ea4626ea8">
+        <meta name="baidu-site-verification" content="f81e4a13096b3a7cab15fe1d39773a4e">
+
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="test.css" type="text/css">
+        <script src="common.js" type="text/javascript"></script>
+        <script src="main.js" type="text/javascript"></script>
+   </head>
+   <body id="index">
+       <header>
+           <div class="page-container">
+               <div id="logo"><a href="http://www.imooc.com/" target="_self"></a></div> 
+               <ul class="nav">            
+                   <li><a href="http://coding.imooc.com/" target="_self">实战</a></li>
+                   <li><a href="http://www.imooc.com/course/program" target="_self">路径</a></li>
+                   <li><a href="http://www.imooc.com/wenda" target="_self">猿问</a></li>
+                   <li><a href="http://www.imooc.com/article" target="_self">手记</a></li>
+               </ul>
+               <ul class="clearfix logined">
+                   <li class="search">
+                       <div class="search-area" data-search="top-banner">
+                           <input class="search-input" data-suggest-trigger="suggest-trigger" placeholder="请输入想搜索的内容..." autocomplite="off" type="text">
+                       </div>
+                       <div class="showhide-search"><i class="icon-search"></i></div>
+                   </li>
+                   <li class="header-app pr">
+                        <a href="http://www.imooc.com/mobile/app">
+                            <span class="icon-appdownload"></span>
+                        </a>
+                        <div class="QR-download">
+                            <p id="app-text">慕课网APP下载</p>
+                            <p id="app-type">iPhone / Android / iPad</p>
+                            <img src="images/QR-code.jpg">
+                        </div>
+                   </li>
+                   <li class="header-signup"><a id="js-signup-btn" data-sign="signup" href="#">注册</a></li>
+                   <li class="header-signin"><a id="js-signin-btn" data-sign="signin" href="#">登入</a></li>
+                </ul>
+           </div>
+       </header>
+
+       <div class="g-banner pr">
+           <div class="menuwrap">
+           </div>
+           <div class="menuContent">
+               <div class="item a1">
+                   <a href="http://www.imooc.com/course/list?c=fe" target="_blank"></a>
+                   <div class="box">
+                       <a href="http://www.imooc.com/course/list?c=fe" target="_blank"> 
+                         <p class="group">前端开发</p>
+                       </a>
+                       <p class="detail"><a href="http://www.imooc.com/course/list?c=fe" target="_blank"></a><a href="http://www.imooc.com/course/list?c=html" target="_blank" class="mr15">HTML/CSS</a> <a href="http://www.imooc.com/course/list?c=javascript" target="_blank" class="mr15">Javascript</a><a href="http://www.imooc.com/course/list?c=html5" target="_blank">Html5</a></p>
+                  </div>
+                  <div class="submenu a hide">
+                      <div class="innerBox">
+                          <div class="subinnerBox">   
+                              <div class="title">分类目录</div>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=html">HTML/CSS</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=javascript">JavaScript</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=html5">Html5</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=CSS3">CSS3</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=jquery">jQuery</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=webapp">WebApp</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=nodejs">Node.js</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=angularjs">AngularJS</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=bootstrap">Bootstrap</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=fetool">前端工具</a><span class="ml10 mr10">/</span>
+                              <div class="title recommend">推荐</div>
+                              <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/243" data-ast="qianduantj_1_591">课程 | 用字体在网页中画ICON图标</a></p>
+                              <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/229" data-ast="qianduantj_1_593">课程 | 移动端开发框架Zepto.js入门</a></p>                     
+                              <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/204" data-ast="qianduantj_1_595">课程 | SEO在网页制作中的应用</a></p>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+
+               <div class="item a2">
+                   <a href="http://www.imooc.com/course/list?c=be" target="_blank"></a>
+                   <div class="box">
+                       <a href="http://www.imooc.com/course/list?c=be" target="_blank"> <p class="group">后端开发</p></a>
+                       <p class="detail"><a href="http://www.imooc.com/course/list?c=be" target="_blank"></a><a href="http://www.imooc.com/course/list?c=php" target="_blank" class="mr15">PHP</a> <a href="http://www.imooc.com/course/list?c=java" target="_blank" class="mr15">Java</a><a class="mr15" href="http://www.imooc.com/course/list?c=linux" target="_blank">Linux</a><a href="http://www.imooc.com/course/list?c=C" target="_blank">C</a></p>
+                   </div>
+                   <div class="submenu b hide">
+                       <div class="innerBox">
+                           <div class="subinnerBox">   
+                               <div class="title">分类目录</div>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=php">PHP</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=java">Java</a><span class="ml10 mr10">/</span>      
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=linux">Linux</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=python">Python</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=C">C</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=C+puls+puls">C++</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=Go">Go</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=C%23">C#</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=data+structure">数据结构</a><span class="ml10 mr10">/</span>
+                               <div class="title recommend">推荐</div>
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/547" data-ast="houduantj_1_597">课程 | 使用wordpress极速建站</a></p>
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/583" data-ast="houduantj_1_601">课程 | Linux系统管理</a></p>
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/learn/368" data-ast="houduantj_1_603">课程 | 初识Java微信公众号开发</a></p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="item a3">
+                   <a href="http://www.imooc.com/course/list?c=mobile" target="_blank"></a>
+                   <div class="box">
+                       <a href="http://www.imooc.com/course/list?c=mobile" target="_blank"><p class="group">移动开发</p></a>
+                       <p class="detail"><a href="http://www.imooc.com/course/list?c=mobile" target="_blank"></a><a href="http://www.imooc.com/course/list?c=android" target="_blank" class="mr15">Android</a> <a href="http://www.imooc.com/course/list?c=ios" target="_blank" class="mr15">iOS</a><a href="http://www.imooc.com/course/list?c=Cocos2d-x" target="_blank">Cocos2d-x</a></p>
+                   </div>
+                   <div class="submenu c hide">
+                       <div class="innerBox ">
+                           <div class="subinnerBox">   
+                               <div class="title">分类目录</div>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=android">Android</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=ios">iOS</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=Unity+3D">Unity 3D</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=Cocos2d-x">Cocos2d-x</a><span class="ml10 mr10">/</span>
+                               <div class="title recommend">推荐</div>
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/663" data-ast="yidongtj_1_607">课程 | 玩儿转Swift 2.0（第三季）</a></p>                                             
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/learn/667" data-ast="yidongtj_1_579">课程 | Unity 3D音频系统</a></p>          
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/662" data-ast="yidongtj_1_581">课程 | Android动感系列-摇一摇</a></p>
+                           </div>
+                       </div>
+                   </div>
+            
+               </div>
+               <div class="item a4">
+                   <a href="http://www.imooc.com/course/list?c=data" target="_blank"></a>
+                   <div class="box">
+                       <a href="http://www.imooc.com/course/list?c=data" target="_blank"> <p class="group">数据处理</p></a>
+                       <p class="detail"><a href="http://www.imooc.com/course/list?c=data" target="_blank"></a><a href="http://www.imooc.com/course/list?c=mysql" target="_blank" class="mr15">MySQL</a> <a href="http://www.imooc.com/course/list?c=mongodb" target="_blank" class="mr15">MongoDB</a><a href="http://www.imooc.com/course/list?c=cloudcomputing" target="_blank">云计算</a></p>
+                  </div>
+                  <div class="submenu d hide">
+                      <div class="innerBox ">
+                          <div class="subinnerBox">   
+                              <div class="title">分类目录</div>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=mysql">MySQL</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=mongodb">MongoDB</a><span class="ml10 mr10">/</span>               
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=cloudcomputing">云计算</a><span class="ml10 mr10">/</span>               
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=Oracle">Oracle</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=%E5%A4%A7%E6%95%B0%E6%8D%AE">大数据</a><span class="ml10 mr10">/</span>
+                              <a target="_blank" href="http://www.imooc.com/course/list?c=SQL+Server">SQL Server</a><span class="ml10 mr10">/</span>
+                              <div class="title recommend">推荐</div>
+                              <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/614" data-ast="shujutj_1_609">课程 | MongoDB复制集—复制集安全</a></p>
+                              <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/learn/117" data-ast="shujutj_1_611">课程 | 数据库设计那些事</a></p>                   
+                              <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/398" data-ast="shujutj_1_613">课程 | MySQL开发技巧（一）</a></p>
+                          </div>
+                      </div>
+                  </div>
+            
+               </div>
+               <div class="item a5">
+                   <a href="http://www.imooc.com/course/list?c=photo" target="_blank"></a>
+                   <div class="box bbnone">
+                       <a href="http://www.imooc.com/course/list?c=photo" target="_blank"> <p class="group">图像处理</p></a>
+                       <p class="detail"><a href="http://www.imooc.com/course/list?c=photo" target="_blank"></a><a href="http://www.imooc.com/course/list?c=photoshop" target="_blank" class="mr15">Photoshop</a> <a href="http://www.imooc.com/course/list?c=maya" target="_blank" class="mr15">Maya</a><a href="http://www.imooc.com/course/list?c=premiere" target="_blank">Premiere</a></p>
+                   </div>
+                   <div class="submenu e hide">
+                       <div class="innerBox ">
+                           <div class="subinnerBox">   
+                               <div class="title">分类目录</div>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=photoshop">Photoshop</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=maya">Maya</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=premiere">Premiere</a><span class="ml10 mr10">/</span>
+                               <a target="_blank" href="http://www.imooc.com/course/list?c=ZBrush">ZBrush</a><span class="ml10 mr10">/</span>
+                               <div class="title recommend">推荐</div>
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/learn/506" data-ast="shejitj_1_615">课程 | 前端工程师必备的PS技能 切图篇</a></p>
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/130" data-ast="shejitj_1_617">课程 | 拍摄与剪辑“怀孕日记”</a></p>                    
+                               <p class="w625 h32"><a target="_blank" href="http://www.imooc.com/view/158" data-ast="shejitj_1_619">课程 | Maya3D建模攻略——葵花宝典</a></p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <a target="_blank" href="http://coding.imooc.com/class/49.html" data-ast="bigbanner1_1_635" class="click-help">
+                <div class="banner-slide slide-prev" style="display:block;" >
+                </div>
+           </a>
+           <a target="_blank" href="http://www.imooc.com/activity/meetbat/index" data-ast="bigbanner1_1_635" class="click-help">
+                <div class="banner-slide slide-next" style="display:none" >
+                </div>
+           </a> 
+           <div class="banner-dots"><span class="active"></span><span class=""></span></div>
+           <span class="banner-anchor prev">上一张</span>
+           <span class="banner-anchor next">下一张</span>                   
+       </div>
+       <div class="outwrap-recomend">
+           <div class="contentwrap">
+               <div class="recomend">实战推荐 <a class="r" href="http://coding.imooc.com/" target="_blank"><span class="more">更多<i class="icon-right2"></i></span></a> </div>
+               <div class="recomendContent clearfix">
+                   <div class="box js-upAni">
+                       <a href="http://coding.imooc.com/class/50.html" target="_blank" data-ast="xiaomutj_1_511">
+                           <div class="pr h100">
+                               <img src="images/576b84c10001b1c005400300-228-128.jpg" height="124" width="100%">
+                               <div class="box_body js-upBox">
+                                   <p class="ml20 title"> 所向披靡的响应式开发</p>
+                                   <p class="summary ml20"> 忘记设备尺寸，一套代码适配多终端，响应式开发让用户体验和开发效率完美结合 </p>
+                               </div>
+                               <div class="box_bottom "><span class="ml20 fl color-red">￥128.00</span><span class="fr mr20">362人在学</span></div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="box js-upAni">
+                       <a href="http://coding.imooc.com/class/38.html" target="_blank" data-ast="xiaomutj_1_513">
+                           <div class="pr h100">
+                               <img src="images/576376520001da3d05400300-228-128.jpg" height="124" width="100%">
+                               <div class="box_body js-upBox">
+                                   <p class="ml20 title"> 7天搞定Node.js微信公众号开发</p>
+                                   <p class="summary ml20"> 用Koa框架、ES2015新特性及MongoDB数据库，开发微信公众号。 </p>
+                               </div>
+                               <div class="box_bottom "><span class="ml20 fl color-red">￥199.00</span><span class="fr mr20">483人在学</span></div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="box js-upAni">
+                       <a href="http://coding.imooc.com/class/13.html" target="_blank" data-ast="xiaomutj_1_505">
+                           <div class="pr h100">
+                               <img src="images/5763766b0001fe1705400300-228-128.jpg" height="124" width="100%">
+                               <div class="box_body js-upBox">
+                                   <p class="ml20 title"> HTML5 移动Web App阅读器</p>
+                                   <p class="summary ml20"> 用HTML5、ES6、Ajax异步、Touch事件等技术，开发商业Web APP </p>
+                               </div>
+                               <div class="box_bottom "><span class="ml20 fl color-red">￥68.00</span><span class="fr mr20">1107人在学</span></div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="box js-upAni">
+                       <a href="http://coding.imooc.com/class/48.html" target="_blank" data-ast="xiaomutj_1_507">
+                           <div class="pr h100">
+                               <img src="images/5763761f0001c35e05400300-228-128.jpg" height="124" width="100%">
+                               <div class="box_body js-upBox">
+                                   <p class="ml20 title"> 前端到后台ThinkPHP开发整站</p>
+                                   <p class="summary ml20"> 用PHP+MySQL+Ajax，页面静态化、数据库备份技术实现你“小全栈”梦想。  </p>
+                               </div>
+                               <div class="box_bottom "><span class="ml20 fl color-red">￥128.00</span><span class="fr mr20">721人在学</span></div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="box js-upAni">
+                       <a href="http://coding.imooc.com/class/15.html" target="_blank" data-ast="xiaomutj_1_509">
+                           <div class="pr h100">
+                               <img src="images/5763765d0001352105400300-228-128.jpg" height="124" width="100%">
+                               <div class="box_body js-upBox">
+                                   <p class="ml20 title"> 用组件方式开发 Web App全站 </p>
+                                   <p class="summary ml20"> 用HTML5/CSS3/JS流行技术，以组件式开发WebApp全站。 </p>
+                               </div>
+                               <div class="box_bottom "><span class="ml20 fl color-red">￥78.00</span><span class="fr mr20">883人在学</span></div>
+                           </div>
+                       </a>
+                   </div>
+                              
+               </div>
+           </div>
+       </div>
+       <div class="outwrap-course">
+           <div class="contentwrap">
+               <div class="recomend">免费好课 <a class="r" href="http://www.imooc.com/course/list" target="_blank"><span class="more">更多<i class="icon-right2"></i></span></a> </div>
+                   <div class="recomendContent clearfix">
+                       <div class="box js-upAni">
+                           <div class="new"></div>
+                           <a href="http://www.imooc.com/view/584" target="_blank" data-ast="free-course584">
+                               <div class="pr h100">
+                                   <img src="images/56e291b40001f72f06000338.jpg" height="124" width="100%">
+                                   <div class="box_body js-upBox">
+                                       <p class="ml20 title"> Java实现权限管理（上）</p>
+                                       <p class="summary ml20"> 权限管理系统DAO层和服务层实现。 </p>
+                                   </div>
+                                   <div class="box_bottom "><span class="ml20">4816人在学</span></div>
+                               </div>
+                           </a>
+                       </div>
+                       <div class="box js-upAni">
+                           <div class="new"></div>
+                           <a href="http://www.imooc.com/view/680" target="_blank" data-ast="free-course680">
+                               <div class="pr h100">
+                                   <img src="images/577c61d80001192206000338.jpg" height="124" width="100%">
+                                   <div class="box_body js-upBox">
+                                       <p class="ml20 title"> CSS深入理解之margin</p>
+                                       <p class="summary ml20"> 深入讲解CSS的margin属性 </p>
+                                   </div>
+                                   <div class="box_bottom "><span class="ml20">3836人在学</span></div>
+                               </div>
+                           </a>
+                       </div>
+                       <div class="box js-upAni">
+                           <div class="new"></div>
+                           <a href="http://www.imooc.com/view/621" target="_blank" data-ast="free-course621">
+                               <div class="pr h100">
+                                   <img src="images/56e10d8c0001e22e06000338.jpg" height="124" width="100%">
+                                   <div class="box_body js-upBox">
+                                       <p class="ml20 title"> PHP微信公众平台开发高级篇—生成二维码接口</p>
+                                       <p class="summary ml20"> 微信扫描，值得你拥有！ </p>
+                                   </div>
+                                   <div class="box_bottom "><span class="ml20">2097人在学</span></div>
+                               </div>
+                           </a>
+                       </div>
+                       <div class="box js-upAni">
+                           <div class="new"></div>
+                           <a href="http://www.imooc.com/view/480" target="_blank" data-ast="free-course480">
+                               <div class="pr h100">
+                                   <img src="images/55d28b680001606e06000338.jpg" height="124" width="100%">
+                                   <div class="box_body js-upBox">
+                                       <p class="ml20 title"> JSP自定义标签</p>
+                                       <p class="summary ml20"> JSP自定义标签应用！ </p>
+                                   </div>
+                                   <div class="box_bottom "><span class="ml20">5147人在学</span></div>
+                               </div>
+                           </a>
+                       </div>
+                       <div class="box js-upAni">
+                           <div class="new"></div>
+                           <a href="http://www.imooc.com/view/677" target="_blank" data-ast="free-course677">
+                               <div class="pr h100">
+                                   <img src="images/577364c20001febc06000338.jpg" height="124" width="100%">
+                                   <div class="box_body js-upBox">
+                                       <p class="ml20 title"> 玩儿转Swift 2.0（第四季）</p>
+                                       <p class="summary ml20"> Swift泛型、扩展、面向协议编程等 </p>
+                                   </div>
+                                   <div class="box_bottom "><span class="ml20">3061人在学</span></div>
+                               </div>
+                           </a>
+                       </div>
+                  
+                   </div>
+           </div>
+       </div>
+       <div class="outwrap-content">
+           <div class="contentwrap allshadow web pt48 clearfix">
+               <div class="classify">
+                   <p class="title">Web<br>前端工程师</p>
+                   <a href="http://www.imooc.com/course/programdetail/pid/32" class="career-path" target="_blank"> 职业路径 <i class="icon-right2 path-triangle"></i></a>
+                   <div class="raise-weapon">               
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/20" class="item">jQuery源码探索之旅</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/22" class="item">响应式布局那些事</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/35" class="item">前端经典案例集萃之 "网页常用特效"</a>
+                   </div>
+               </div> 
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/3" data-ast="webtuijian_1_515">
+                    <div class="longer" style="background-image: url(http://img.mukewang.com/577f7b0c000195c804680172.jpg)">
+                        <p>Web前端工程师成长第一阶段</p>
+                    </div>
+               </a>
+               <div class="heigher mr0">
+                   <div class="pr h100">
+                       <a target="_blank" class="js-upAni" href="http://www.imooc.com/view/51">
+                           <img src="images/53143b0a0001e15106000338-228-128.jpg" height="124" width="100%">
+                           <div class="box_body js-upBox">
+                               <p class="ml20 title">使用AngularJS开发下一代Web应用</p>
+                               <p class="summary ml20"> 为克服HTML在构建应用上的不足而设计，“化繁为简，化简为零”，更简洁的开发体验。 </p>
+                           </div>
+                           <div class="box_bottom "><span class="ml20">54206 人在学</span></div>
+                       </a>
+                       <ul class="list">
+                           <li><a target="_blank" href="http://www.imooc.com/view/60">鼠标拖拽效果</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/371">Sass和Compass必备技能之Compass</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/316">css框架的迷思</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/39">前端开发工具技巧介绍—DW篇</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/311">Sass入门篇</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/view/57" data-ast="webtuijian_1_517">
+                   <div class="normal js-upAni">
+                       <div class="pr h100">
+                           <img src="images/576b7b6c0001594106000338-228-128.jpg" height="124" width="100%">
+                           <div class="box_body js-upBox">
+                               <p class="ml20 title">如何用CSS进行网页布局</p>
+                               <p class="summary ml20"> 用最简洁的案例教你布局的那些知识 </p>
+                           </div>
+                           <div class="box_bottom "><span class="ml20"> 93693 人在学</span></div>
+                       </div>
+                   </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/20" data-ast="webtuijian_1_519">
+                    <div class="longer" style="background-image: url(http://img.mukewang.com/577f7b680001a9c104680172.jpg)">
+                        <p>jQuery源码探索之旅  </p>  
+                    </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/view/367" data-ast="webtuijian_1_521">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/570777df00014c0c06000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">Qnext前端交互沙龙</p>
+                                <p class="summary ml20"> 去哪儿网前端沙龙第一期精彩呈现！ </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 18763 人在学</span></div>
+                        </div>
+                    </div>
+               </a>
+               <div class="cb">  </div>
+           </div>
+           <div class="contentwrap allshadow java pt28 clearfix">
+               <div class="classify">
+                   <p class="title">Java<br>工程师</p>
+                   <a href="http://www.imooc.com/course/programdetail/pid/31" class="career-path" target="_blank"> 职业路径 <i class="icon-right2 path-triangle"></i></a>
+                   <div class="raise-weapon">               
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/18" class="item">模式宗师养成宝典之Java版</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/23" class="item">搞定Java加解密</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/48" class="item">Hibernate开发宝典</a>
+                   </div>
+               </div>  
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/18" data-ast="javatuijian_1_48">
+                    <div class="longer" style="background-image: url(http://img.mukewang.com/577f7bfa0001603207120172.jpg)">
+                        <p>模式宗师养成宝典之Java版</p>  
+                    </div>
+               </a>
+               <div class="heigher mr0">
+                   <div class="pr h100">
+                       <a target="_blank" class="js-upAni" href="http://www.imooc.com/view/110">
+                            <img src="images/5703604a0001694406000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">Java入门第三季</p>
+                                <p class="summary ml20"> Java中你必须懂得常用技能 </p>
+                            </div>
+                       </a>
+                       <div class="box_bottom "><span class="ml20">153134 人在学</span></div>
+                       <ul class="list"> 
+                           <li><a target="_blank" href="http://www.imooc.com/view/632">Java高并发秒杀API之高并发优化</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/112">模式的秘密---单例模式</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/288">JAVA实现非对称加密</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/334">Hibernate初探之一对多映射</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/443">项目管理利器——maven</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/view/368" data-ast="javatuijian_1_443">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/576b7b2000010bc706000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">初识Java微信公众号开发</p>
+                                <p class="summary ml20"> Java微信公众号开发的入门课程！ </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 67332 人在学</span></div>
+                        </div>
+                    </div>
+               </a>
+                <a target="_blank" href="http://www.imooc.com/view/518" data-ast="javatuijian_1_443">
+                     <div class="normal js-upAni">
+                         <div class="pr h100">
+                             <img src="images/5617949a0001ddb606000338-228-128.jpg" height="124" width="100%">
+                             <div class="box_body js-upBox">
+                                 <p class="ml20 title">Java 分页原理与实践（下）</p>
+                                 <p class="summary ml20"> 用Hibernate实现下拉加载分页效果<br></p>
+                             </div>
+                             <div class="box_bottom "><span class="ml20"> 16336 人在学</span></div>
+                         </div>
+                     </div>
+                </a>
+                <a target="_blank" href="http://www.imooc.com/view/354" data-ast="javatuijian_1_443">
+                     <div class="normal js-upAni">
+                         <div class="pr h100">
+                             <img src="images/570366220001ca8f06000338-228-128.jpg" height="124" width="100%">
+                             <div class="box_body js-upBox">
+                                 <p class="ml20 title">解密JAVA实现Excel导入导出</p>
+                                 <p class="summary ml20"> 轻松实现文件导入导出 </p>
+                             </div>
+                             <div class="box_bottom "><span class="ml20"> 31707 人在学</span></div>
+                         </div>
+                     </div>
+                </a>
+           </div>
+           <div class="contentwrap allshadow php pt28 clearfix">
+               <div class="classify">
+                   <p class="title">PHP<br>工程师</p>
+                   <a href="http://www.imooc.com/course/programdetail/pid/34" class="career-path" target="_blank"> 职业路径 <i class="icon-right2 path-triangle"></i></a>
+                   <div class="raise-weapon">
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/11" class="item">PHP开发工程师闯关记--初识PHP</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/27" class="item">从零开始学习ThinkPHP框架</a>
+                   </div>
+               </div> 
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/11" data-ast="phptuijian_1_27">
+                    <div class="longer" style="background-image: url(http://img.mukewang.com/577f7f7c0001cf5104680364.jpg)">
+                        <p class="title">PHP开发工程师闯关记</p>
+                        <div class="line"></div>
+                        <div class="subtitle">一起来开启PHP的神奇之旅吧</div>
+                    </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/view/68" data-ast="phptuijian_1_27">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/57075a48000139bb06000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">JSON应用场景与实战</p>
+                                <p class="summary ml20"> 你还不知道JSON吗，快快加入我们吧。 </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 41240 人在学</span></div>
+                        </div>
+                    </div>
+               </a>
+               <div class="heigher mr0">
+                   <div class="pr h100">
+                       <a target="_blank" class="js-upAni" href="http://www.imooc.com/view/438">
+                            <img src="images/5707655b00016b1d06000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">PHP7.0新特性</p>
+                                <p class="summary ml20"> 带你率先领略PHP7.0的风采。 </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20">22119 人在学</span></div>
+                       </a>
+                       <ul class="list">
+                           <li><a target="_blank" href="http://www.imooc.com/view/54">PHP入门篇</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/616">PHP微信公众平台开发高级篇—自定义菜单</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/547">使用wordpress极速建站</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/433">PHPExcel探索之旅</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/417">神奇的JpGraph类库</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/view/115" data-ast="phptuijian_1_417">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/5707623f0001f96006000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">PHP实现验证码制作</p>
+                                <p class="summary ml20"> 各种形态验证码核心原理与实现技巧 </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 22072 人在学</span></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="cb">  </div>
+            </div>
+
+           <div class="contentwrap allshadow android pt28 clearfix">
+               <div class="classify">
+                   <p class="title">Android<br>工程师</p>
+                   <a href="http://www.imooc.com/course/programdetail/pid/33" class="career-path" target="_blank"> 职业路径 <i class="icon-right2 path-triangle"></i></a>
+                   <div class="raise-weapon">
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/17" class="item">从0开始学习制作QQ侧滑菜单</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/24" class="item">Android加薪利器--自定义View</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/36" class="item">Android加薪利器——断点续传</a>
+                   </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/50" data-ast="androidtuijian_1_36">
+                    <div class="longer" style="background-image: url(http://img.mukewang.com/577f81ac000193e007120172.jpg)">
+                        <p>Android-微信热门功能合集</p>  
+                    </div>
+               </a>
+               <div class="heigher mr0">
+                   <div class="pr h100">
+                       <a target="_blank" class="js-upAni" href="http://www.imooc.com/view/267">
+                            <img src="images/549a72970001c9d906000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">Android面试常客Handler详解</p>
+                                <p class="summary ml20"> 学Android开发，必学Handler </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20">35185 人在学</span></div>
+                       </a>
+                       <ul class="list"> 
+                           <li><a target="_blank" href="http://www.imooc.com/view/303">Android自定义任意层级树形控件</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/365">Android必学-BaseAdapter的使用与优化</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/153">Android高级Root技术原理解析</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/341">如何使用高德定位进行开发</a></li>
+                           <li><a target="_blank" href="http://www.imooc.com/view/225">Android电商活动中的刮刮卡</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/view/211" data-ast="androidtuijian_1_225">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/574667f400014de706000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">QQ5.0侧滑菜单</p>
+                                <p class="summary ml20"> 迈出将QQ肢解的第一步 </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 48018 人在学</span></div>
+                        </div>
+                    </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/view/657" data-ast="androidtuijian_1_225">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/5733fcce0001103506000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">Android-打造炫酷进度条</p>
+                                <p class="summary ml20"> Android-打造炫酷进度条！ </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 15265 人在学</span></div>
+                        </div>
+                    </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/view/500" data-ast="androidtuijian_1_225">
+                    <div class="normal js-upAni">
+                        <div class="pr h100">
+                            <img src="images/570758550001628e06000338-228-128.jpg" height="124" width="100%">
+                            <div class="box_body js-upBox">
+                                <p class="ml20 title">Android-短信验证</p>
+                                <p class="summary ml20"> 通过代码实践实现短信验证 </p>
+                            </div>
+                            <div class="box_bottom "><span class="ml20"> 28526 人在学</span></div>
+                        </div>
+                    </div>
+               </a>
+           </div>
+           <div class="contentwrap allshadow ios pt28 clearfix">
+               <div class="classify">
+                   <p class="title">iOS<br>工程师</p>
+                   <p class="fs14 mb122"> 为果粉而生</p>
+                   <div class="raise-weapon">
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/39" class="item">Swift加薪利器-iOS动画特辑</a>
+                       <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/46" class="item">iOS苹果表开发攻略</a>
+                   </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/46" data-ast="iostuijian_1_46">
+                    <div class="longer" style="background-image: url(http://img.mukewang.com/576a29950001c78804680172.jpg)">
+                        <p>iOS苹果表开发攻略</p>
+                    </div>
+               </a>
+               <div class="heigher mr0">
+                   <div class="pr h100">
+                       <a target="_blank" class="js-upAni" href="http://www.imooc.com/view/420">
+                           <img src="images/570761d200014d8b06000338-228-128.jpg" height="124" width="100%">
+                           <div class="box_body js-upBox">
+                               <p class="ml20 title">iOS基础入门之Foundation框架初体验</p>
+                               <p class="summary ml20"> 学会Foundation框架，走遍天下都不怕 </p>
+                           </div>
+                           <div class="box_bottom "><span class="ml20">37571 人在学</span></div>
+                      </a>
+                      <ul class="list">
+                          <li><a target="_blank" href="http://www.imooc.com/view/661">iOS基础教程-SQLite数据库操作</a></li>
+                          <li><a target="_blank" href="http://www.imooc.com/view/671">iOS基础教程-网络操作</a></li>
+                          <li><a target="_blank" href="http://www.imooc.com/view/395">iOS-动画进阶</a></li>
+                          <li><a target="_blank" href="http://www.imooc.com/view/559">iOS9新特性之内容索引</a></li>
+                          <li><a target="_blank" href="http://www.imooc.com/view/658">iOS基础教程之-Camera摄像头</a></li>
+                      </ul>
+                  </div>
+               </div>
+               <a target="_blank" href="http://www.imooc.com/view/274" data-ast="iostuijian_1_658">
+                  <div class="normal js-upAni">
+                      <div class="pr h100">
+                          <img src="images/54a210ea0001788d06000338-228-128.jpg" height="124" width="100%">
+                          <div class="box_body js-upBox">
+                              <p class="ml20 title">如何使用iOS SDK进行基于LBS的开发</p>
+                              <p class="summary ml20"> 迅速使用IOS SDK进行基于LBS的开发！ </p>
+                          </div>
+                          <div class="box_bottom "><span class="ml20"> 11508 人在学</span></div>
+                      </div>
+                  </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/course/programdetail/pid/39" data-ast="iostuijian_1_658">
+                   <div class="longer" style="background-image: url(http://img.mukewang.com/576a29ad0001322404680172.jpg)">
+                       <p>Swift加薪利器-iOS动画特辑</p>  
+                   </div>
+               </a>
+               <a target="_blank" href="http://www.imooc.com/view/561" data-ast="iostuijian_1_658">
+                   <div class="normal js-upAni">
+                       <div class="pr h100">
+                           <img src="images/566f8f5e0001950b06000338-228-128.jpg" height="124" width="100%">
+                           <div class="box_body js-upBox">
+                               <p class="ml20 title">iOS新特性之不一样的任务管理器</p>
+                               <p class="summary ml20"> 实现iOS9任务管理器超炫滑动效果<br></p>
+                           </div>
+                           <div class="box_bottom "><span class="ml20"> 7403 人在学</span></div>
+                       </div>
+                   </div>
+               </a>
+           </div>
+           <div class="contentwrap allshadow linux pt28 clearfix">
+               <div class="classify">
+                   <p class="title">Linux<br>运维工程师</p>
+                   <a href="http://www.imooc.com/course/programdetail/pid/45" class="career-path" target="_blank"> 职业路径 <i class="icon-right2 path-triangle"></i></a>
+               </div>
+               <div class="normal js-upAni  ">
+                   <a href="http://www.imooc.com/view/583" target="_blank">
+                       <div class="pr h100">
+                           <img src="images/5697799a0001e99006000338-228-128.jpg" height="124" width="100%">
+                           <div class="box_body js-upBox">
+                               <p class="ml20 title">Linux系统管理</p>
+                               <p class="summary ml20"> 进程管理+工作管理+系统定时任务 </p>
+                           </div>
+                           <div class="box_bottom "><span class="ml20"> 8958 人在学</span></div>
+                       </div>
+                  </a>
+               </div>
+               <div class="normal js-upAni  ">
+                  <a href="http://www.imooc.com/view/447" target="_blank">
+                      <div class="pr h100">
+                          <img src="images/559f35ad00017e0006000338-228-128.jpg" height="124" width="100%">
+                          <div class="box_body js-upBox">
+                              <p class="ml20 title">Linux软件安装管理</p>
+                              <p class="summary ml20"> 使用rpm和yum命令安装Linux软件！ </p>
+                          </div>
+                          <div class="box_bottom "><span class="ml20"> 32873 人在学</span></div>
+                      </div>
+                 </a>
+               </div>
+               <div class="normal js-upAni  ">
+                 <a href="http://www.imooc.com/view/361" target="_blank">
+                     <div class="pr h100">
+                         <img src="images/55237dcc0001128c06000338-228-128.jpg" height="124" width="100%">
+                         <div class="box_body js-upBox">
+                             <p class="ml20 title">shell编程之环境变量配置文件</p>
+                             <p class="summary ml20"> 为你带来Linux shell中的环境变量配置文件！ </p>
+                         </div>
+                         <div class="box_bottom "><span class="ml20"> 14578 人在学</span></div>
+                     </div>
+                </a>
+               </div>
+               <div class="normal js-upAni  mr0  ">
+                   <a href="http://www.imooc.com/view/538" target="_blank">
+                       <div class="pr h100">
+                           <img src="images/5653bd1d0001801906000338-228-128.jpg" height="124" width="100%">
+                           <div class="box_body js-upBox">
+                               <p class="ml20 title">Shell典型应用之系统信息及运行状态获取</p>
+                               <p class="summary ml20"> Linux系统常用信息及运行状态监控！ </p>
+                           </div>
+                           <div class="box_bottom "><span class="ml20"> 11756 人在学</span></div>
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div class="contentwrap allshadow article pt28 clearfix">
+               <div class="classify">
+                   <p class="title">手记&amp;猿问</p>
+                   <p class="fs14 mb122">IT知识和答疑，想要的都在这</p>
+                   <a target="_blank" href="http://www.imooc.com/article"><div class="linkbtn">手记</div></a>
+                   <a target="_blank" href="http://www.imooc.com/wenda"><div class="linkbtn">猿问</div></a>
+                   <a target="_blank" href="http://www.imooc.com/mall/index"><div class="linkbtn">积分商城</div></a>
+               </div>  
+               <a href="http://www.imooc.com/article/9837" target="_blank" data-ast="bbstuijian_1_538">
+                   <div class="longer" style="background-image: url(http://img.mukewang.com/577f8273000117f304680172.jpg)">
+                       <p>【小说+干货】Python的十大神器</p>
+                   </div>
+               </a>
+               <a href="http://www.imooc.com/wenda/detail/322157" target="_blank" data-ast="bbstuijian_1_538">
+                   <div class="longer mr0" style="background-image: url(http://img.mukewang.com/5774d4be000104b604680172.jpg)">
+                       <p>怎样把制作的网页发布到互联网</p> 
+                   </div>
+               </a>
+               <div class="longer">
+                   <div class="left">热门手记</div>
+                   <div class="right">
+                       <a href="http://www.imooc.com/opus" target="_blank" data-ast="shoujituijian_1_538"><p class="h32">靠实战进百度、腾讯、阿里提交个人作品精选</p></a>
+                       <a href="http://www.imooc.com/article/8273" target="_blank" data-ast="shoujituijian_1_538"><p class="h32">一名全栈设计师的Mac工具箱</p></a>
+                       <a href="http://www.imooc.com/article/10183" target="_blank" data-ast="shoujituijian_1_538"><p class="h32">高薪前端攻城狮炼成记！</p></a>
+                       <a href="http://www.imooc.com/article/10057" target="_blank" data-ast="shoujituijian_1_538"><p class="h32">web前端开发面试题汇总</p></a>
+                   </div>
+               </div>
+               <div class="longer mr0">
+                   <div class="left">猿问推荐</div>
+                   <div class="right">
+                       <a target="_blank" href="http://www.imooc.com/wenda/detail/322401" data-ast="yuanwentuijian_1_538"><p class="h32">java的“方法”中的问题？</p></a>
+                       <a target="_blank" href="http://www.imooc.com/wenda/detail/322108" data-ast="yuanwentuijian_1_538"><p class="h32">求数组中出现频率最多的数 出错？</p></a>
+                       <a target="_blank" href="http://www.imooc.com/wenda/detail/321403" data-ast="yuanwentuijian_1_538"><p class="h32">文字渐变倒影怎么做？</p></a>
+                       <a target="_blank" href="http://www.imooc.com/wenda/detail/320836" data-ast="yuanwentuijian_1_538"><p class="h32">点击了按钮却不弹出对话框是什么原因啊？</p></a>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <footer>
+           <div class="container">
+               <div class="footer-sns">
+                   <a href="http://weibo.com/u/3306361973" class="footer-sns-weibo hide-text" target="_blank" title="新浪微博">新浪微博</a>
+                   <a href="javascript:void(0);" class="footer-sns-weixin" target="_blank" title="微信">
+                       <i class="footer-sns-weixin-expand"></i>
+                   </a>
+                   <a href="http://t.qq.com/mukewang999" class="footer-sns-qqweibo hide-text" target="_blank" title="腾讯微博">腾讯微博</a>
+                   <a href="http://user.qzone.qq.com/1059809142/" class="footer-sns-qzone hide-text" target="_blank" title="QQ空间">QQ空间</a>
+               </div>
+               <div class="footer-link">
+                   <a href="http://www.imooc.com/about/us" target="_blank" title="关于我们">关于我们</a>
+                   <a href="http://www.imooc.com/about/job" target="_blank" title="人才招聘">人才招聘</a>
+                   <a href="http://www.imooc.com/about/recruit" target="_blank" title="讲师招募">讲师招募</a>
+                   <a href="http://www.imooc.com/about/contact" target="_blank" title="联系我们">联系我们</a>
+                   <a href="http://www.imooc.com/user/feedback" target="_blank" title="意见反馈">意见反馈</a>
+                   <a href="http://www.imooc.com/about/friendly" target="_blank">友情链接</a>
+               </div>
+               <div class="footer-copyright">
+                   <p>©&nbsp;2016&nbsp;imooc.com&nbsp;&nbsp;京ICP备13046642号</p>
+               </div>
+           </div>
+       </footer>
+       <div id="J_GotoTop" class="elevator">
+           <a href="http://www.imooc.com/user/feedback" class="elevator-msg" title="意见反馈"><i class="icon-feedback"></i></a>  
+           <a href="javascript:" class="elevator-app" title="app下载">
+               <i class="icon-appdownload"></i>
+               <div class="elevator-app-box"></div>
+           </a>
+           <a href="javascript:void(0)" class="elevator-top no-goto" style="display:none" title="返回顶部" id="backTop">
+               <i class="icon-up2"></i>
+           </a>    
+       </div>
+       </div>
+   </body>
+</html>
